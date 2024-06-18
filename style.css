@@ -1,0 +1,51 @@
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#progressBar, #volume {
+    -webkit-appearance: none;
+    position: relative;
+    appearance: none; 
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+  #volume{
+      width: 30%;
+  }
+  
+  #progressBar::-webkit-slider-runnable-track, 
+  #volume::-webkit-slider-runnable-track {
+    height: 5px;
+    background: #ccc;
+    border-radius: 16px;
+  }
+  
+
+  
+  #progressBar::-webkit-slider-thumb,
+  #volume::-webkit-slider-thumb
+   {
+    -webkit-appearance: none;
+    appearance: none; 
+    height: 5px;
+    width: 5px;
+    background-color: #6a3869;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 85, 215, 0.4);
+    box-shadow: -403px 0 0 400px rgba(255, 85, 215, 0.4);
+  }
+  
+  #progressBar::-moz-range-thumb,
+  #volume::-moz-range-thumb
+   {
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #ff56;
+    box-shadow: -407px 0 0 400px #ff56;
+  }
